@@ -1,12 +1,15 @@
 # httptor.go
-Use tor with `http.DefaultClient`. Make sure you have tor running on `localhost:9050`.
+Use Tor with `http.DefaultClient`. Make sure you have tor running on `localhost:9050`.
 
+## Installation
 Install using:
 ```go
 go get github.com/servusDei2018/httptor
 ```
 
-Import it:
+## Usage
+By merely importing it (see below), `http.DefaultClient` now leverages the power of Tor.
+
 ```go
 import _ "github.com/servusDei2018/httptor"
 ```
