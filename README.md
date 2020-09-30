@@ -2,17 +2,17 @@
 Use tor with `http.DefaultClient`. Make sure you have tor running on `localhost:9050`.
 
 Install using:
-```
+```go
 go get github.com/servusDei2018/httptor
 ```
 
 Import it:
-```
+```go
 import _ "github.com/servusDei2018/httptor"
 ```
 
 ## Example
-```
+```go
 package main
 
 import (
